@@ -1,0 +1,16 @@
+# Full-face baseline — MobileNetV3 Small
+model: mobilenetv3
+model_alias: mobilenetv3
+model_kwargs:
+  num_classes: 2
+  pretrained: true
+
+region: null  # full-face
+
+epochs: 10
+lr: 3e-4
+weight_decay: 1e-4
+batch_size: 64
+patience: 3
+
+frames_csv: outputs/splits/frames_split.csv

@@ -1,0 +1,18 @@
+# Temporal GRU — MobileNetV3 Small feature extractor + GRU
+model: gru
+model_alias: gru
+model_kwargs:
+  seq_len: 8
+  hidden_size: 128
+  num_classes: 2
+  pretrained: true
+
+region: null
+
+epochs: 10
+lr: 3e-4
+weight_decay: 1e-4
+batch_size: 32
+patience: 3
+
+frames_csv: outputs/splits/frames_split.csv

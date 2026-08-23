@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project outputs (large files / model checkpoints)
+outputs/frames/
+outputs/regions/
+outputs/models/*.pth
+outputs/splits/
+outputs/temporal/
+
+# Keep figures, results, and sample_predictions tracked
+!outputs/figures/
+!outputs/results/
+!outputs/sample_predictions/
+
+# dlib model
+shape_predictor_68_face_landmarks.dat
+shape_predictor_68_face_landmarks.dat.bz2
+
+# Google Drive deliverables (not for GitHub)
+*.pdf
+deepfake_proposal_componentA.tex
+references.bib
+Research.txt
+fig_*.png
+fig_*.PNG

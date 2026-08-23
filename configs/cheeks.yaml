@@ -1,0 +1,16 @@
+# Cheek regions — EfficientNet-B0
+model: efficientnet_b0
+model_alias: cheeks
+model_kwargs:
+  num_classes: 2
+  pretrained: true
+
+region: cheeks
+
+epochs: 10
+lr: 3e-4
+weight_decay: 1e-4
+batch_size: 64
+patience: 3
+
+frames_csv: outputs/metrics/region_frames.csv
